@@ -1,0 +1,20 @@
+/*<form (ngSubmit)="onSubmit(inscriptionForm)" #inscriptionForm="ngForm" class="was-validated">
+    <form class="needs-validation" novalidate>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="nom">Non</label>
+          <input type="text" id="nom" name="nom" class="form-control" placeholder="nom.."
+           [(ngModel)]="utilisateur.nom" required>
+          <div class="invalid-feedback">
+            Valid first name is required.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="prenom">Prenom</label>
+          <input type="text" id="prenom" name="prenom" class="form-control" placeholder="prenom.."
+           [(ngModel)]="utilisateur.prenom" required>
+          <div class="invalid-feedback">
+            Valid last name is required.
+          </div>
+        </div>
+      </div>*/

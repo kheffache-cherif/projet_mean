@@ -1,0 +1,18 @@
+ <div class="text">
+    <h1 class="titreListeProduits">Liste des produits</h1>
+
+    <ol>
+    <li *ngFor='let produit of produits' >
+       <div  class="row">
+      <div class="col-6 align-self-center ">
+      <p class="titreLivre">{{produit['nom']}}--({{produit['type']}}) prix:{{produit['prix']}} Euros</p></div>
+
+      <div class="col-6 justify-content-center"><img [src] = "produit.image" height="100" width="100" background></div>
+</div>
+        <div class= "row justify-content-center margin-buffer"><button *ngIf="user|async" class="btn btn-dark" (click)="AjouterAuPanier( produit)"> Ajouter au panier
+     </button> </div></li>
+</ol>
+</div>
+
+
+

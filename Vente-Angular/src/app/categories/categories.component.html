@@ -1,0 +1,26 @@
+
+
+    <div *ngIf="!(user | async)" >
+      <p class="card-header mx-auto"> En vous connectant, decouvrez nos livres par thèmes:</p>
+
+      <div class="card-body">
+        <div *ngFor="let categorie of categories" class="card">
+       <p class="card-text mx-auto">{{categorie}}</p>
+        </div>
+      </div>
+      </div>
+      <div *ngIf="user|async">
+        <div class="card-header"><strong>vous êtes connecté :</strong></div>
+
+        <div class="card border-0 text-center text-white">
+         <div class="card-body">
+           <div *ngFor="let categorie of categories">
+           <p class="card-text mx-auto"> <input type="button" value="allez vite decouvrir la selection {{categorie}} "
+            (click)="produitsParCategorie(categorie)"/></p>   <!--la liste de toutes les categories     plus un boutton
+              le bouton appel methode produits /categories   dans componenet categories-->
+     </div>
+
+   </div>
+
+ </div>
+</div>

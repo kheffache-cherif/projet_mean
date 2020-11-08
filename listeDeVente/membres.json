@@ -1,0 +1,22 @@
+[
+
+
+{"nom":"Emile",
+    "prénom":"Zola",
+    "email":"emile.zola@mailserver.fr",
+    "password":"1840"},
+{"nom":"Victor",
+    "prénom":"Hugo",
+    "email":"victor.hugo@mailserver.fr",
+    "password":"1802"},		
+{"nom":"Yasmina",
+    "prénom":"Khadra",
+    "email":"yasmina.khadra@mailserver.fr",
+    "password":"1211990"},
+{"nom":"Albert",
+    "prénom":"Camus",
+    "email":"albert.camus@mailserver.fr",
+    "password":"1913"}
+
+
+]

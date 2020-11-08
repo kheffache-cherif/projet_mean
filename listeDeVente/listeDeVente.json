@@ -1,0 +1,24 @@
+[
+{"nom":"Les Citations du Président Mao Tse-Toung","type":"Politique", "prix":"17", "image" :"assets/images/lecture-avenire.jpg"},
+{"nom":" Le cartel des fraudes  ","type":"Politique","prix":"16","image" :"assets/images/Le cartel des fraudes.jpg"},
+{"nom":" Crépuscule","type":"Politique","prix":"18","image" :"assets/images/Crépuscule.jpeg"},
+
+{"nom":" Scanner Thoracique","type":"Medecine","prix":"18","image" :"assets/images/Scanner Thoracique.jpeg"},
+{"nom":" Guide pratique des médicaments","type":"Medecine","prix":"18","image" :"assets/images/Guide pratique des médicaments.jpg"},
+
+{"nom":" L’Alchimiste ","type":"Phylosophie","prix":"15","image" :"assets/images/L’Alchimiste.jpg"},
+{"nom":" La Chute","type":"Phylosophie","prix":"18","image" :"assets/images/La Chute.jpg"},
+{"nom":" L’apologie de Socrate  ","type":"Phylosophie","prix":"17","image" :"assets/images/L’apologie de Socrate.jpg"},
+
+{"nom":"Les cavaliers", "type":"Aventure","prix":"11","image" :"assets/images/Les cavaliers.jpg"},
+{"nom":"L'Ile au trésor", "type":"Aventure","prix":"31","image" :"assets/images/L'Ile au trésor.jpg"},
+{"nom":"La vallée des rubis", "type":"Aventure","prix":"11","image" :"assets/images/La vallée des rubis.jpg"},
+
+{"nom":"La Nuit des temps", "type":"Science-Fiction","prix":"22","image" :"assets/images/La Nuit des temps.jpg"},
+{"nom":"La Planète des singes (1963)", "type":"Science-Fiction","prix":"20","image" :"assets/images/La Planète des singes (1963).jpg"},
+{"nom":"Je suis une légende", "type":"Science-Fiction","prix":"10","image" :"assets/images/Je suis une légende.jpg"},
+
+{"nom":"Une Histoire populaire des Etats Unis", "type":"Histoire","prix":"16","image" :"assets/images/Une Histoire populaire des Etats Unis.jpg"},
+{"nom":"La Guerre de Cent Ans ", "type":"Histoire","prix":"21","image" :"assets/images/La Guerre de Cent Ans.jpg"},
+{"nom":"La Chute de Berlin", "type":"Histoire","prix":"30","image" :"assets/images/La Chute de Berlin.jpg"}
+]

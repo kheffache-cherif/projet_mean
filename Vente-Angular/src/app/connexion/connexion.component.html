@@ -1,0 +1,17 @@
+
+    <div class="auth-page">
+
+      <div class="well">
+        <form (ngSubmit)="onSubmit()" #inscriptionForm="ngForm">
+          <label><strong>Email</strong></label>
+            <input type="text" class="form-control" required [(ngModel)]="utilisateur['email']" name="email" /> <!--construction de l'oblet JSON UTILISATEUR-->
+
+         <label><strong>Mot de passe </strong></label>
+          <input type="password" class="form-control" required [(ngModel)]="utilisateur['password']" name="password" />
+
+          <input type="submit" value="Se connecter"/>
+        </form>
+        <p> {{message}} </p>
+
+       </div>
+   </div>
